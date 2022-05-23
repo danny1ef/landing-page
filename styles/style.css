@@ -99,6 +99,7 @@ ul {
 
 .quote {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #E5E7EB;
@@ -117,7 +118,8 @@ ul {
 .quote-author {
   font-weight: 700;
   font-size: 24px;
-  margin: 10px;
+  margin-left: 450px;
+
 }
 
 
@@ -131,6 +133,7 @@ button {
   border: none;
   color: white;
   border-radius: 8px;
+  margin: 8px;
   padding: 8px 16px;
   width: 125px;
   height: 40px;
@@ -178,8 +181,8 @@ button {
   align-items: center;
   border-radius: 8px;
   width: 1000px;
-  height: 90px;
-  padding: 30px;
+  height: 150px;
+  padding: 0px;
   background-color: #3882F6
 }
 
@@ -192,6 +195,7 @@ button {
 .box .info {
   display: flex;
   flex-direction: column;
+  row-gap: 0;
   margin: 80px;
 }
 .title {
